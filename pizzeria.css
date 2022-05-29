@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-image:url(pizzeria_tlo.jpg);
+    background-size: cover;
+    
+}
+
+#header{
+    display:flex;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid silver;
+    color: white;
+    height: 120px;
+}
+#logo{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.navbar{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    
+    font-family: 'Blaka', cursive;
+}
+.navbar ul {
+    box-sizing: border-box;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    color: white;
+    list-style-type: none;
+}
+.navbar ul a, .button-section a{
+    margin-top: 10px;
+    text-decoration: none;
+    color:white;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.navbar ul a:hover, .tel a:hover, .button-section a:hover{
+    color: rgba(173, 0, 0, 0.9);
+    border: 2px solid rgba(173, 0, 0, 0.9);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transform: scale(1.05);
+    transition: all 0.6s;
+}
+.tel{
+    position:relative;
+    top: 100px;
+    margin-top: 15px;
+    margin-right: 25px;
+    
+}
+.tel a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+.slider-box{
+    display: flex;
+    height:35px;
+    background-color: black;
+    border-bottom: 2px solid silver;
+    color: white;
+}
+.slider-half-item{
+    width: 50%;
+}
+.button-section{
+    margin-left: 50px;
+}
+.button-section a{
+    font-size: 18px;
+}
+.pizza-img{
+    position: relative;
+    top: -15px;
+    background-image:url(pizzeria_header.jpg) ;
+    height: 200px;
+    width: 800px;
+    border-radius: 25px;
+    border-bottom: 2px solid silver;
+    border-left: 2px solid silver;
+    border-right: 2px solid silver;
+}
+
+.menu-and-info{
+    display:flex;
+    margin-top: 140px;
+}
+.menu-half-item, .blocks{
+    width: 50%;
+}
+.blocks{
+    box-sizing: border-box;
+    position: relative;
+    top: -120px;
+}
+.blocks ul{
+    margin-left: 185px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.blocks img{
+    max-width: 200%;
+    max-height: 80%;
+    height: auto;
+    border: 3px solid silver;
+    border-radius:25px;
+}
+.desc{
+    position: relative;
+    top: -35px;
+    left: 160px;
+    color:white;
+    font-size: 20px;
+}
+#menu{
+    margin-left: 300px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 30px;
+    width: 300%;
+}
+.menu-box{
+    display:flex;
+    background-image: url(pizzeria_tablica.jpg);
+    margin-top: -20px;
+    padding-top: 25px;
+    width: 800px;
+    height: 715px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid silver;
+}
+.half{
+    display: flex;
+}
+.pizza{
+    color:white;
+    position: relative;
+    top: 37px;
+    left: -550px;
+}
+.pizza-desc{
+    color:white;
+    position: relative;
+    top: 37px;
+    left: -250px;
+}
+.pizza li, .pizza-desc li{
+    margin-top: 20px;
+    width: 350%;
+    height: 100px;
+}
+.pizza-desc ol{
+    list-style-type: none;
+}
